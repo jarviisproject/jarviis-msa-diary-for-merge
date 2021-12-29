@@ -125,7 +125,7 @@ def create(request):
                            contents=new['contents'],
                            # item=new['item'],
                            user_id=new['user_id'])
-    return JsonResponse({'USER LOG': 'CREATE SUCCESS'})
+    return JsonResponse({'USER LOG': 'CREATE SUCCESS', "log_type": new['log_type']})
 
 
 @api_view(['POST'])
@@ -184,7 +184,7 @@ def list(request):
     month = date[5:7]
     day = date[8:10]
     print(f'date : {year}-{month}-{day}')
-    userlog = UserLog.objects.filter(log_date__year= year, log_date__month=month, log_date__day=day, user_id=user_id)
+    userlog = UserLog.objects.filter(log_date__year= year, log_date__month=month, log_date__day=day, user_id=user_id).order_by("log_date")
     print(userlog)
     serializer = UserLogSerializer(userlog, many=True)
     print(serializer.data)
