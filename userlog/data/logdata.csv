@@ -1,0 +1,4 @@
+location,gps,log_type,contents,item
+강남 도서관,구글맵1,gps,도서관 방문,도서관
+강남 당구장,구글맵2,payment,당구장 결제,23000
+강남 편의점,구글맵3,payment,편의점 결제,2200
