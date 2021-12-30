@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5982eaf6-d990-46d4-a3ec-6eb726b9b3b3" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routine/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/routine/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +109,7 @@
       <workItem from="1640769534250" duration="153000" />
       <workItem from="1640769825454" duration="2994000" />
       <workItem from="1640835643561" duration="1941000" />
+      <workItem from="1640845678385" duration="7981000" />
     </task>
     <servers />
   </component>
@@ -114,6 +117,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/diary$tests.coverage" NAME="tests Coverage Results" MODIFIED="1640691258889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/routine" />
+    <SUITE FILE_PATH="coverage/diary$tests.coverage" NAME="tests Coverage Results" MODIFIED="1640845716714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/routine" />
   </component>
 </project>

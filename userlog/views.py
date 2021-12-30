@@ -115,7 +115,7 @@ def create(request):
         x, y = Location().getLatLng(addr=new['address'])
         new['x'] = x
         new['y'] = y
-    new_log = UserLog.objects.create(location=new['location'] if new['log_date'] != "" else "",
+    new_log = UserLog.objects.create(location=new['location'] if new['log_date'] != "" else "장소없음",
                            address=new['address'],
                            x=new['x'],
                            y=new['y'],

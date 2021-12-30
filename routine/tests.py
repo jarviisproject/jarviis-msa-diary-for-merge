@@ -33,7 +33,7 @@ def diff_ngram(sa,sb,num):
 if __name__ == '__main__':
     #테스트할 문장 입력
     a="자바 개발"
-    b="열심히 자바 공부"
+    b="파이썬 개발"
 
     #2-gram
     r2,word2=diff_ngram(a,b,2)
