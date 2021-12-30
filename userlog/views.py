@@ -115,7 +115,7 @@ def create(request):
         x, y = Location().getLatLng(addr=new['address'])
         new['x'] = x
         new['y'] = y
-    UserLog.objects.create(location=new['location'] if new['log_date'] != "" else "장소 없음",
+    new_log = UserLog.objects.create(location=new['location'] if new['log_date'] != "" else "",
                            address=new['address'],
                            x=new['x'],
                            y=new['y'],
@@ -125,7 +125,7 @@ def create(request):
                            contents=new['contents'],
                            # item=new['item'],
                            user_id=new['user_id'])
-    return JsonResponse({'USER LOG': 'CREATE SUCCESS', "log_type": new['log_type']})
+    return JsonResponse({'USER LOG': 'CREATE SUCCESS', "log_type": new['log_type'], "id": new_log.pk})
 
 
 @api_view(['POST'])
