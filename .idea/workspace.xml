@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5982eaf6-d990-46d4-a3ec-6eb726b9b3b3" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/diary.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routine/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/routine/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickdraw_api/.quickdrawcache/bear.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickdraw_api/.quickdrawcache/computer.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickdraw_api/.quickdrawcache/face.bin" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +115,7 @@
       <workItem from="1640769825454" duration="2994000" />
       <workItem from="1640835643561" duration="1941000" />
       <workItem from="1640845678385" duration="7981000" />
+      <workItem from="1640935666873" duration="699000" />
     </task>
     <servers />
   </component>
