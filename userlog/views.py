@@ -51,17 +51,22 @@ def modify(request):
     print(edit)
     log = UserLog.objects.get(pk=edit['id'])
     db = UserLog.objects.all().filter(id=edit['id']).values()[0]
-    db["log_date"] = str(db["log_date"])
-    x, y, address = Location().getAddress(db['location'])
-    db['address'] = address
-    db['x'] = x
-    db['y'] = y
+
     print(f" edit.keys() :: {edit.keys()}")
     print(f' 변경 전 : {db}')
     for i in edit.keys():
         print(f"{i}")
         db[f"{i}"] = edit[f"{i}"]
-    db['location'] = str(db['location'])
+    db["log_date"] = str(db["log_date"])
+    print(f"edit['location'] :: {edit['location']}")
+    if len(edit["location"]) > 1:
+        print(f"edit['location'] :: {edit['location']}")
+        db["location"] = edit["location"]
+    x, y, address = Location().getAddress(db['location'])
+    db['address'] = address
+    db['x'] = x
+    db['y'] = y
+    # db['location'] = str(db['location'])
     # db['location'] = edit['location'] if edit['location'] != "" else db['location']
     # x, y, address = Location().getAddress(db['location'])
     # db['address'] = address

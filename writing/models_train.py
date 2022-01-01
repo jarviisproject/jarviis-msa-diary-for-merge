@@ -11,8 +11,8 @@ class WritingTrain:
         output_dir = '../machine/ver3'
         overwrite_output_dir = False
         per_device_train_batch_size = 8
-        num_train_epochs = 50
-        save_steps = 500
+        num_train_epochs = 500
+        save_steps = 5000
         self.train(train_file_path, model_name, output_dir, overwrite_output_dir, per_device_train_batch_size, num_train_epochs, save_steps)
 
     # 데이터셋 불러오기
