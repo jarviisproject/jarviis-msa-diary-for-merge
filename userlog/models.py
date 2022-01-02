@@ -14,6 +14,7 @@ class UserLog(models.Model):
     weather = models.TextField(null=True)
     log_type = models.TextField(null=True)
     contents = models.TextField()
+    event_id = models.IntegerField(null=True)
     # item = models.TextField()
     user_id = models.IntegerField()
 

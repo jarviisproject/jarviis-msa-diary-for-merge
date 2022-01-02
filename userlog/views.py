@@ -94,9 +94,27 @@ def modify(request):
 def remove(request, pk):
     print("********** remove **********")
     print(f'pk : {pk}')
-    db = UserLog.objects.get(pk=pk)
-    db.delete()
-    return JsonResponse({'User Log': 'DELETE SUCCESS'})
+    try:
+        db = UserLog.objects.get(pk=pk)
+        db.delete()
+        return JsonResponse({'User Log': 'DELETE SUCCESS'})
+    except:
+        print("Nothing to DELETE")
+        return JsonResponse({'User Log': 'Nothing to DELETE'})
+
+
+@api_view(['DELETE'])
+@parser_classes([JSONParser])
+def removeFromTodo(request, event_id):
+    print("********** remove **********")
+    print(f'event_id : {event_id}')
+    try:
+        db = UserLog.objects.get(event_id=event_id)
+        db.delete()
+        return JsonResponse({'User Log from Todo': 'DELETE SUCCESS'})
+    except:
+        print("Nothing to DELETE")
+        return JsonResponse({'User Log from Todo': 'Nothing to DELETE'})
 
 
 @api_view(['POST'])
@@ -128,9 +146,9 @@ def create(request):
                            weather=new['weather'] if new['weather'] != "" else Weather().process(),
                            log_type=new['log_type'] if new['log_type'] != "" else "normal",
                            contents=new['contents'],
-                           # item=new['item'],
+                           event_id=new['event_id'],
                            user_id=new['user_id'])
-    return JsonResponse({'USER LOG': 'CREATE SUCCESS', "log_type": new['log_type'], "id": new_log.pk})
+    return JsonResponse({'USER LOG': 'CREATE SUCCESS', "log_type": new['log_type'], "id": new_log.pk, "event_id": new_log.event_id})
 
 
 @api_view(['POST'])

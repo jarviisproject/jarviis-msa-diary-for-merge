@@ -9,6 +9,7 @@ urlpatterns = [
     url(r'test', views.test),
     url(r'modify', views.modify),
     url(r'remove/(?P<pk>\w{0,500})$', views.remove),
+    url(r'remove-from-todo/(?P<event_id>\w{0,500})$', views.removeFromTodo),
     url(r'create', views.create),
     url(r'list/(?P<user_id>\w{0,500})/(?P<year>\d{4})-(?P<month>\d{2})-(?P<day>\d{2})$', views.list_by_date),
     url(r'list', views.list),

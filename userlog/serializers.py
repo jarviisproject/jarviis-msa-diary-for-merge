@@ -17,6 +17,7 @@ class UserLogSerializer(serializers.Serializer):
     weather = serializers.CharField()
     log_type = serializers.CharField()
     contents = serializers.CharField()
+    task_id = serializers.CharField(required=False)
     # item = serializers.CharField()
     user_id = serializers.CharField()
 

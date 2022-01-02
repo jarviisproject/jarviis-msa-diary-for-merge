@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5982eaf6-d990-46d4-a3ec-6eb726b9b3b3" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/userlog/migrations/0010_auto_20220102_1649.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userlog/migrations/0011_auto_20220102_1733.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cbc56200-5059-44c1-ad09-ae25182280a2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userlog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/writing/models_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/writing/models_train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +45,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/userlog/migrations" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\emma0\workspace\jarviis\jarviis-msa-diary-for-merge\userlog\migrations" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.models_train">
     <configuration name="models_train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -160,14 +172,26 @@
       <workItem from="1640845678385" duration="7981000" />
       <workItem from="1640935666873" duration="699000" />
       <workItem from="1641050282000" duration="6316000" />
+      <workItem from="1641124611675" duration="219000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/jarviis_msa_diary_for_merge$models_train.coverage" NAME="models_train Coverage Results" MODIFIED="1641050891647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/writing" />
     <SUITE FILE_PATH="coverage/diary$tests.coverage" NAME="tests Coverage Results" MODIFIED="1640845716714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/routine" />
+    <SUITE FILE_PATH="coverage/jarviis_msa_diary_for_merge$models_train.coverage" NAME="models_train Coverage Results" MODIFIED="1641050891647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/writing" />
   </component>
 </project>
